@@ -5,6 +5,12 @@
     <groupId>com.example</groupId>
     <artifactId>MobileAutomation</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <repositories>
+    <repository>
+        <id>central</id>
+        <url>https://repo.maven.apache.org/maven2</url>
+    </repository>
+</repositories>
     <dependencies>
         <dependency>
             <groupId>io.appium</groupId>
@@ -21,10 +27,10 @@
             <artifactId>testng</artifactId>
             <version>7.4.0</version>
         </dependency>
-        <dependency>
-            <groupId>com.aventstack.extentreports</groupId>
-            <artifactId>extentreports</artifactId>
-            <version>5.0.9</version>
-        </dependency>
+      <dependency>
+    <groupId>com.aventstack.extentreports</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.0.9</version>
+</dependency>
     </dependencies>
 </project>
